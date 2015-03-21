@@ -6,6 +6,11 @@ The course assignment for the Get and Clean Data class
 
 It is assumed that you are familiar with the UCI Machine Learning data set as outlined in the course assignment.  No attempt is made here to reproduce the content that is in the readme of that data set.
 
+################    ---- STUDY DESIGN ----    #################
+
+Please see the documentation that is downloaded along with the data for informaiton on the data itself.
+Additional information can be found here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 ################      ---- run_analysis.R ----    #################
 
 This script takes the data from the UCI Machine Learning repository and creates two tidy sets, the last of which is written out to a text file.  
@@ -28,8 +33,13 @@ The data set includes 180 records.  One for each of the 30 people in the study f
 First are the columns of the file that identify the subject and their activities at the time of the measurements
 
 Activity_Code
+	A number from 1 to 6 which indicates the activity that was occuring at the time of the measurement.
+
 Activity_Name
+	A human readable label for the activity code.
+
 Subject
+	A number from 1-30 representing the subject/person for whom the measurements were taken. 
 
 Then there is a seperate column for the mean and the std of each of the following measurements.  Also, each item shown below with an XYZ appears as a distinct column for each axis.  Therefore a single line below might represent as many as six variables.  
 
@@ -53,4 +63,4 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 
-Please refer to the readme for the dataset for more infomration on the values included.
+Please refer to the readme for the dataset for more infomration on the values included.  Additionally information will be found in the features_info file that came with the data set as well. 
