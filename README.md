@@ -24,9 +24,9 @@ Last, this thinner data set is summerized by taking the mean of every variable c
 This last data set is written out to a file named meansdata.txt
 
 
-################    ---- meansdata.txt ----    #################
+################    ---- CODEBOOK ----    #################
 
-The resulting data of the code is written out to this file.
+The resulting data of the code is written out to the meansdata.txt file.
 
 The data set includes 180 records.  One for each of the 30 people in the study for each of the 6 activities.
 
